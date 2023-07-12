@@ -1,18 +1,24 @@
-//alert("Сегодня 10.11.2023")
-document.getElementById("text").innerHTML="Js работает";
-console.log("Добро рожаловать на курс Muhammad");
-console.log(1234);
-console.log("Строка");
-console.log(76376723892379878987978678679n)
-let a=true;
-a=false;
-console.log(a)
-let b=null;
-console.log(b);
-let c=12345;
-c=undefined;
-console.log(c);
-let d=9999;
-console.log(typeof d);
-let e="Список"
-console.log(typeof e);
+let inp=document.querySelector('.inp')
+let but=document.querySelector('.send')
+let div=document.querySelector('div')
+but.onclick=function(){
+ let com1 = inp.value;
+ div.innerHTML=com1
+};
+
+/*let happy=prompt('Как тебя зовут?');
+if(happy=="Muhammad"){
+  alert("Привет "+happy)
+}
+else{
+    alert('NotFound')
+}*/
+
+let num=prompt('Что больше 100 или 50')
+if(num==100){ 
+alert("Molodes")
+console.log(num);
+}
+else{
+    alert("Как так можеть быт подумай ещё!!!!!")
+}
