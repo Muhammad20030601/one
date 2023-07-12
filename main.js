@@ -1,24 +1,18 @@
-let inp=document.querySelector('.inp')
-let but=document.querySelector('.send')
-let div=document.querySelector('div')
-but.onclick=function(){
- let com1 = inp.value;
- div.innerHTML=com1
-};
-
-/*let happy=prompt('Как тебя зовут?');
-if(happy=="Muhammad"){
-  alert("Привет "+happy)
+let a,b,c,d,e
+a=10
+b=8
+c=a+b
+if(c>15){
+  console.log('DA');
+}
+if(c<=15){
+  console.log('Net');
+}
+d=1
+e="1"
+if(d===e){
+  console.log("true");
 }
 else{
-    alert('NotFound')
-}*/
-
-let num=prompt('Что больше 100 или 50')
-if(num==100){ 
-alert("Molodes")
-console.log(num);
-}
-else{
-    alert("Как так можеть быт подумай ещё!!!!!")
+  console.log("false");
 }
