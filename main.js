@@ -1,18 +1,20 @@
-let a,b,c,d,e
-a=10
-b=8
-c=a+b
-if(c>15){
-  console.log('DA');
+/*let a,b,c
+while(a<=50){
+ console.log(a)
+ a++
 }
-if(c<=15){
-  console.log('Net');
+a=50
+
+while(a>=25){
+console.log(a)
+  a--
+}*/
+
+for(let a=1;a<=50;a++){
+  console.log(a)
 }
-d=1
-e="1"
-if(d===e){
-  console.log("true");
-}
-else{
-  console.log("false");
-}
+
+/*for(let b=2500;b<=3001;b+=3){
+  
+  console.log(b);
+}*/
