@@ -1,46 +1,23 @@
-// Напишите функцию именную, которая при нажатии кнопки выводит в блок див на странице значения из переменной A.
+// Создать кнопку button 1, которая будет запускать функцию, при которой элементу div с классом element будет задаваться 
+// ширина и высота (размеры произвольные)
+// Добавить 3 дополнительных класса и написать функцию при нажатии на кнопку эти 3 класса будут присваиваться к 1 
+// элементу (элемент произвольный)
+// Написать функцию, которая при клике по кнопке будет удалять любой из 3 классов, что были присвоены во 2 задаче
 
-// Напишите простой калькулятор из 4 выражений + - * / для этого сделайте 4 кнопки и поле ввода, затем при
-//  вводе каждого числа и после при 
-// нажатии на кнопку должна выполнится одна из функций, в зависимости от того какую кнопку мы нажали
+let bt=document.querySelector("#cl")
+let res=document.querySelector("div")
+bt.onclick=function(){
+  res.classList.toggle("emmet")
 
-
-let e=document.querySelector("#in")
-let button=document.querySelector("#s")
-let di=document.querySelector("#tex")
-button.onclick=function(){
-  di.innerHTML=e.value
 }
 
-
-let n1=document.querySelector("#n1")
-let n2=document.querySelector("#n2")
-let div=document.querySelector("#text")
-let a=document.querySelector("#p")
-let b=document.querySelector("#m")
-let c=document.querySelector("#u")
-let d=document.querySelector("#d")
-a.onclick=function(){
- div.value=Number(n1.value)+Number(n2.value)
- div.innerHTML=div.value
-    
+let bt1=document.querySelector("#cl2")
+let p=document.querySelector("p")
+bt1.onclick=function(){
+  p.classList="color size back"
 }
 
-b.onclick=function(){
-    div.value=Number(n1.value)-Number(n2.value)
-    div.innerHTML=div.value
-       
-   }
-
-   c.onclick=function(){
-    div.value=Number(n1.value)*Number(n2.value)
-    div.innerHTML=div.value
-       
-   }
-
-   d.onclick=function(){
-    div.value=Number(n1.value)/Number(n2.value)
-    div.innerHTML=div.value
-       
-   }
-
+let bdel=document.querySelector("#del")
+bdel.onclick=function(){
+  p.classList.remove("color")
+}

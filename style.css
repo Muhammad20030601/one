@@ -1,0 +1,25 @@
+.emmet{
+    color: red;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: lime;
+    border:1px solid black;
+    border-radius: 20px;
+
+}
+
+
+.color{
+    color: aqua;
+
+}
+
+.back{
+    background-color: orange;
+
+}
+
+.size{
+    font-size: 35px;
+}
