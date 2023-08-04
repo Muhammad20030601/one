@@ -1,0 +1,63 @@
+
+body{
+	background-color: #36ee55;
+}
+input{
+
+	color: #212529;
+	background-color: #fff;
+	border-color: #bdbdbd;
+	outline: 0;
+	padding: 10px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+	border: 0;
+	border-radius: 10px;
+	border-bottom: 1px solid #eee;
+	  
+}
+
+
+#go{
+	position: relative;
+	color: #776666;
+	left: 35px;
+	border: 0;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px ;
+	font-size:15px;
+	font-family: Kelly slab,coursive;
+	transition: 0.5s;
+  }
+
+  #go:hover{
+	color: #000000;
+	font-size: 18px;
+	background-color:#fbff00;
+	transition: 0.5s;
+  }
+ 
+   #form{
+	  width: 200px;
+	  position: relative;
+	  left: 500px;
+	  top: 200px;
+	  height: 150px;
+	  padding: 30px;
+	  
+   }
+
+   #otvet{
+	  text-align: center;
+	  color: rgb(252, 252, 252);
+   }
+
+ .center{
+ 	color: red;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 100%;
+ 	width: 100%;
+ 	font-size: 25px;
+ 	
+ }
