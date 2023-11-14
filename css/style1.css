@@ -1,23 +1,11 @@
-
-html,body{
-	width: 100%;
-	height: 100%;
-}
-
-body{
-	max-width: 1100px;
-}
-
 nav ul{
 	list-style: none;
 }
 .o_blog{
 	color: white;
 	width: 900px;
-   font-size: 25px;
-	position: relative;
+    font-size: 25px;
 	top: 900px;
-
 }
 .gla{
 	border-radius: 60px;
@@ -29,19 +17,24 @@ nav ul{
 	font-family: Kelly slab,coursive;
 	transition: 0.9s;
 } 
-
-
-
 .vse{
-   float: right;
+   float:left ;
 }
-
+.sn{
+	background-size: 300px; 
+	width: 250px;
+	height: 170px;
+	transition: 0.3s;
+	filter: blur(5px);
+}
+.sn:hover{
+	transition: 0.6s;
+	filter: blur(0)
+}
 ul li{
 	float: left;
 	padding: 20px;
-
 }
-
  nav:hover ul li a{
     filter: blur(5px);
 }
@@ -56,40 +49,11 @@ ul li{
 }
 
 p{
-	position: absolute;
 	color: white;
 }
     
 body{
-	background: url(../img/fon.jpg);
-
-}
-
-.snouden{
-	width: 300px;
-	height: 200px;
-	background-image: url(../img/snouden.jpg);	
-	background-size: cover;
-	background-repeat: no-repeat;
-	filter: blur(5px);
-	transition: 0.5s;
-}
-
-.snouden:hover{
-	filter: blur();
-	width: 320px;
-	height: 220px;
-}
-
-.kill{
-	width: 300px;
-	height: 200px;
-	background-image: url(../img/kill.jpg);	
-	background-size: cover;
-	background-repeat: no-repeat;
-	filter: blur(5px);
-	transition: 0.5s;
-	margin-inline: 20px;
+	background-color: #294d64;
 }
 
 .o_blog p{
@@ -99,52 +63,18 @@ body{
 #ko{
 	background-color: #00ffdc;
 }
-
 #com{
-	
-	position:relative;
-	
-	top: 600px;
-	float: right;
-
+	display: none;
 }
-
 #commit{
 	padding: 10px;
+	
 	width: 300px;
 	border: 0;
 	box-sizing: border-box;
 	transition: 0.5s;
 }
 
-.kill:hover{
-	filter: blur();
-	width: 320px;
-	height: 220px
-}
-
-.black{
-	width: 300px;
-	height: 200px;
-	background-image: url(../img/1.jpg);	
-	background-size: cover;
-	background-repeat: no-repeat;
-	filter: blur(5px);
-	transition: 0.5s;
-}
-
-.black:hover{
-	filter: blur();
-	width: 320px;
-	height: 220px
-}
-
-.avtors{
-	width: 1000px;
-	position: relative;
-	top: 200px;
-	display: flex;
-}
 a{
 	text-decoration: none;
 	color: white;
@@ -153,57 +83,38 @@ a{
 }
 
 .texts{
-	color: blueviolet;
-	position: absolute;
-	top: 520px;
-	display:flex;
-	font-size: 18px;
+	float: right;
+	padding: 111px;
+	display: none;
 	font-family: 'Anonymous Pro', monospace;
-	
 }
 
 
-.text1,
-.text3{
+.text1{
 	width: 300px;
+	display: ;
 }
 
 .text2{
 	width: 300px;
-	margin-inline: 20px;
+}
+
+.text3{
+	width: 300px;
 }
 
 .text4{
-	color:white;
-	max-width: 1200px;
-	position: absolute;
-	top: 900px;
-	font-size: 18px;
+	width: 0;
+	height: 300px;
+	display: none;
 }
 
-.tg{
-	border-radius: 30px;
-	width:50px;
-	height:50px;
-
-}
-.wt{
-	border-radius: 30px;
-	width: 50px;
+	
+div .text4,	img{
+    width: 50px;
 	height: 50px;
-}
-
-.ins{
-	border-radius: 30px;
-	width: 50px;
-	height: 50px;
-}
-
-.name{
-	color: white;
-}
-.name:hover{
-	color: red;
+	border-radius: 60px;
+	margin: 10px;
 }
 
 @media screen and (max-width:390px) {
@@ -212,15 +123,7 @@ a{
 	width: 100px;
 	top:150px;
 }
-.texts{
-	display: block;
-	position: relative;
-	top:200px;
-}
-.text4{
-	position: relative;
-	top: 250px;
-}
+
 .gla{
 	font-size: 16px;
 }
@@ -229,6 +132,16 @@ a{
  top:450px;
  font-size: 16px;
 }
-
+}
+.images{
+	float: right;
+	display: none;
 }
 
+.del{
+	color: red;
+}
+
+.val{
+	color: lime;
+}

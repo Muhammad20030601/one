@@ -4,7 +4,7 @@ let sur=document.querySelector("#surname")
 let ot=document.querySelector("#otvet")
 let pass=document.querySelector("#pass")
 
-bt.onclick=function() {
+bt.onclick=function(){
 if(nam.value=="" || sur.value==""){ 
 ot.innerHTML="Введите имя и фамилю"
 
@@ -17,5 +17,4 @@ else{
     alert("Привет  "+nam.value + " ваш пароль  "+"*****")
     window.location="js/g.html"
 }
-}
-
+};
